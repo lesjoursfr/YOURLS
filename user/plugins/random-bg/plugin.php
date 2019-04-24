@@ -19,7 +19,7 @@ function ozh_yourls_randombg() {
 	$rnd = yourls_plugin_url( $bg[ mt_rand( 0, count( $bg ) - 1 ) ] );
 	echo <<<CSS
 <style type="text/css">
-		body {background:#e3f3ff url($rnd) repeat;}
+		body {background:#FF9689 url($rnd) repeat;}
 	</style>
 
 CSS;

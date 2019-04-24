@@ -9,8 +9,8 @@ function yourls_html_logo() {
 	?>
 	<header role="banner">
 	<h1>
-		<a href="<?php echo yourls_admin_url( 'index.php' ) ?>" title="YOURLS"><span>YOURLS</span>: <span>Y</span>our <span>O</span>wn <span>URL</span> <span>S</span>hortener<br/>
-		<img src="<?php yourls_site_url(); ?>/images/yourls-logo.png" alt="YOURLS" title="YOURLS" border="0" style="border: 0px;" /></a>
+		<a href="<?php echo yourls_admin_url( 'index.php' ) ?>" title="Les Jours - YOURLS">
+		<img src="<?php yourls_site_url(); ?>/images/lesjours-logo.png" alt="Les Jours - YOURLS" title="Les Jours - YOURLS" border="0" style="border: 0px;" /></a>
 	</h1>
 	</header>
 	<?php
@@ -74,7 +74,7 @@ function yourls_html_head( $context = 'index', $title = '' ) {
 	$bodyclass .= ( yourls_is_mobile_device() ? 'mobile' : 'desktop' );
 
 	// Page title
-	$_title = 'YOURLS &mdash; Your Own URL Shortener | ' . yourls_link();
+	$_title = 'Les Jours URL Shortener &mdash; YOURLS | ' . yourls_link();
 	$title = $title ? $title . " &laquo; " . $_title : $_title;
 	$title = yourls_apply_filter( 'html_title', $title, $context );
 
@@ -85,7 +85,7 @@ function yourls_html_head( $context = 'index', $title = '' ) {
 	<title><?php echo $title ?></title>
 	<meta http-equiv="Content-Type" content="<?php echo yourls_apply_filter( 'html_head_meta_content-type', 'text/html; charset=utf-8' ); ?>" />
 	<meta name="generator" content="YOURLS <?php echo YOURLS_VERSION ?>" />
-	<meta name="description" content="YOURLS &raquo; Your Own URL Shortener' | <?php yourls_site_url(); ?>" />
+	<meta name="description" content="Les Jours URL Shortener &mdash; YOURLS' | <?php yourls_site_url(); ?>" />
 	<?php yourls_do_action('html_head_meta', $context); ?>
 	<link rel="shortcut icon" href="<?php yourls_favicon(); ?>" />
 	<script src="<?php yourls_site_url(); ?>/js/jquery-3.3.1.min.js?v=<?php echo YOURLS_VERSION; ?>" type="text/javascript"></script>

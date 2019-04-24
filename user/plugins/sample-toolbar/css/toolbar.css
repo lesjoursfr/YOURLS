@@ -20,8 +20,8 @@ body {
 	top:0;
 	height:35px;
 	width:100%;
-	background:#e3f3ff url(../img/toolbar_bg.png) repeat-x bottom center;
-	color:#2A85B3;
+	background:#FF9689 url(../img/toolbar_bg.png) repeat-x bottom center;
+	color:#A02616;
 	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 	z-index: 900000;
@@ -29,7 +29,7 @@ body {
 
 #yourls-bar a {
 	text-decoration:none;
-	color:#2A85B3;
+	color:#A02616;
 }
 
 #yourls-bar a:hover {
