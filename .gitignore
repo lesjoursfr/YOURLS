@@ -13,6 +13,8 @@ user/*
 
 # Languages
 !user/languages/
+!user/languages/fr_FR.mo
+!user/languages/fr_FR.po
 
 # Plugins
 # Core plugins
